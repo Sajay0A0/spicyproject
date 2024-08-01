@@ -1,0 +1,57 @@
+/* .main-div {
+    background-color:#27AE60;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+   
+    
+} */
+.login-head{
+    display:flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    font-weight: 350;
+}
+.login-box {
+    width: 300px;
+    height: 40px;
+    margin: 10px 0 0 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #c4c3c3dd; /* Ensure the border property is set */
+}
+
+.login-box:focus {
+    border-color: #154f30;
+    color: #154f30;
+    border-width: 2.5px;
+    box-shadow: 0 0 10px #cc8f1f;
+    outline: none;
+}
+.login-txt{
+    margin: 10px 0 0 30px;
+    font-weight: 500;
+    font-family: Verdana;
+
+}
+.login-btn{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 30px 0 0 10%;
+}
+.para-sign{
+    margin: 15px 0 0 35px;
+}
+
+.login-btn1{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 20px 0 0 10%;
+    border-color: black;
+}
+.login-btn1:hover{
+    border-color: black;
+    color: red;
+}

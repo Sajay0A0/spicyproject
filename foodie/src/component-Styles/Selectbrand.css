@@ -1,0 +1,98 @@
+.prod-img .prod-head {
+    background: rgba(0, 0, 0, 0.2); 
+    color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 89vh;
+    z-index: 2;
+}
+
+.prod-title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+    font-family: Barlow;
+    font-size: 85px;
+    font-weight: 300;
+}
+.short-title{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    margin: 20% 0 0 45%;
+    font-size: 40px;
+    
+  }
+  /* .head1-1 {
+    margin: 0 0 0 49%;
+    font-family:'Lora';
+    font-weight:bold;
+    font-size:30px;
+    color: #154f30;
+}
+
+.head1-2 {
+    font-family: ' Wittgenstein';
+    margin: 0 0 0 35%;
+    font-weight: 700;
+    color: #154f30;
+}
+
+.head1-3 {
+    margin: 30px 5% 0 33%;
+    text-align:center;
+} */
+
+.masalas-content {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 50px 0;
+    justify-content:flex-end;
+
+}
+
+.masala-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px 5% 0 0;
+}
+
+.body{
+    width: 18rem;
+    padding: 10px 0 15px 15px;
+    margin: 15px 0 15px 45px;
+    border-color: #eae6e6;
+    
+    }
+.all-product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 4% 0 4%;
+    }
+    
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 10px;
+    }
+    
+.pagination button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #154f30;
+    color: white;
+    cursor: pointer;
+    }
+    
+.pagination button.active {
+    background-color: #cc8f1f;
+    }
+    
+.pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+    }
+    

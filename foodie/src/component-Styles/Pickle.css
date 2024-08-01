@@ -1,0 +1,122 @@
+.pickle-img .pickle-head{
+    background: rgba(0, 0, 0, 0.2); 
+    color:#f1f1f1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:89vh;
+    z-index: 2;
+  }
+
+  .pickle-title{
+    justify-content: center;
+    text-align: center;
+    margin: 20% 0 0 0%;
+    font-family:Barlow;
+    font-size:85px;
+    font-weight: 300;
+  }
+  .h1-3{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    font-weight: 500;
+    font-family:Barlow;
+    font-size:25px;
+    margin: 27% 0 0 47%;
+    
+  }
+
+  .head3-1 {
+    margin: 0 0 0 30%;
+    font-family:'Lora';
+    font-weight:bold;
+    font-size:30px;
+    color: #154f30;
+}
+
+.head3-2 {
+    font-family: ' Wittgenstein';
+    margin: 0 0 0 60px;
+    font-weight: 700;
+    color: #154f30;
+}
+
+.head3-3 {
+    margin: 30px 15% 0 25%;
+    text-align:center;
+}
+
+.pickle-content {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 50px 0;
+    justify-content:flex-end;
+
+}
+
+.pickle-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px 5% 0 40px;
+}
+
+.body{
+  width: 18rem;
+  padding: 10px 0 15px 15px;
+  margin: 15px 0 15px 45px;
+  border-color: #eae6e6;
+  
+  }
+
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 5% 0 25%;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 10px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #154f30;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #cc8f1f;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  .image-img{
+    transition: transform .5s ease;
+  }
+  .image-img:hover{
+    transform: scale(1.1);
+    /* transform: rotate(5deg) */
+    animation: shake 1.5s infinite;
+  
+  }
+  
+  @keyframes shake{
+    /* 0%, 100% { transform: translate(0); } */
+    10%, 30%, 10%, 0% { transform: translateY(-10px); }
+    20%, 20%, 0% { transform: translateZ(10px); }
+  }
+  
+  .image-txt{
+    display: flex;
+    justify-content: center;
+  }
+  
